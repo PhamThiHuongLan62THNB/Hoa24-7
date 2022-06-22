@@ -15,7 +15,7 @@
 .breadcrumb a::after
 {   
     color:#666;
-    content: ">";
+    content: " >";
 }
 .clearfix:before, .clearfix:after, .document:after, .document:before, .group:before, .group:after, .conatiner:before, .container::after {
     content: " ";
@@ -92,4 +92,56 @@
     float: left;
     margin-bottom: 15px;
     width: 25%;
+}
+.slide-content {
+    margin: 0 8px;
+    border: 1px solid #ddd;
+}
+.block-product {
+    position: relative;
+    vertical-align: top;
+    overflow: hidden;
+    width: 100%;
+}
+.block-product img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slide-content img {
+    margin-bottom: 16px;
+    width: 100%;
+}
+img {
+    vertical-align: middle;
+    max-width: 100%;
+}
+.slide-caption {
+    position: relative;
+    padding: 0 10px;
+}
+.slide-caption h5 {
+    color: #575757;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 600;
+}
+.group-price .price {
+    color: #e5023c;
+    font-size: 18px;
+    font-weight: bold;
+}
+.group-price p {
+    display: inline-block;
+    margin: 0 5px 0 10px;
+    vertical-align: middle;
+}
+sup {
+    top: -0.5em;
+}
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
 }
