@@ -69,3 +69,13 @@ h4{
     outline: none;
     text-decoration: none;
 }
+
+@media (max-width:780px) {
+    .head-1
+    {
+        display:none;
+    }
+    .head{
+        width:450px;
+    }
+}
