@@ -12,500 +12,780 @@
 
 </head>
 <body>
-    <div class="top-bar" style="padding: 0">
-        <nav class="navbar navbar-expand-lg bg-light" style="position: fixed; right: 0; left: 0; top: 0; z-index: 999;">
-          <div class="container-fluid">
+  <div class="container-fluid" style="padding: 0">
+    <nav class="navbar navbar-expand-lg bg-light" style="position: fixed; right: 0; left: 0; top: 0; z-index: 999;">
+        <div class="container-fluid">
             <p class="navbar-brand" href="#" style="font-size: 15px; margin: 0 10%">
-              Công ty TNHH Điện Hoa 24h
+                Công ty TNHH Điện Hoa 24h
             </p>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 5%; margin-right: 5%">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="Login.html">Đăng nhập</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="Check.html">| Kiểm tra đơn hàng </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/Order_Flowers_Fast/index.html">| Đặt hoa nhanh </a>
-                </li>
-              </ul>
-              <div class="search">
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Tìm kiếm sản phẩm" aria-label="Search" />
-                  <button class="btn btn-outline-success" type="submit">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                  </button>
-                </form>
-              </div>
-              <div class="cart-shopping" style="padding: 0 30px; font-size: 30px">
-                <i class="fa-solid fa-cart-shopping"></i>
-              </div>
-              <span style="margin-left: -3%">(0)</span>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent"
+                style="margin-left: 5%; margin-right: 5%">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/Login.html">Đăng nhập</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Check.html">| Kiểm tra đơn hàng </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Order_Flowers_Fast/index.html">| Đặt hoa nhanh </a>
+                    </li>
+                </ul>
+                <div class="search">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Tìm kiếm sản phẩm"
+                            aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="cart-shopping" style="padding: 0 30px; font-size: 30px">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <span style="margin-left: -3%">(0)</span>
             </div>
-          </div>
-        </nav>
-    </div>
-        <!-- Header -->
-        <header>
-          <div class="row" style="padding: 40px; padding-top: 8%;">
+        </div>
+    </nav>
+    <!-- Header -->
+    <header>
+        <div class="row" style="padding: 40px; padding-top: 70px;">
             <div class="col-md-12">
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="row">
-                    <div class="col-md-4" style="padding-left: 10%">
-                      <img style="width: 100%;" src="/images/dienhoa-logo.png" alt="" />
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-4" style="padding-left: 10%">
+                                <img style="width: 100%;" src="/images/dienhoa-logo.png" alt="" />
+                            </div>
+                            <div class="col-md-4" style="margin-left: 10%; width: 22%">
+                                <p><b>Hà Nội:</b></p>
+                                <p style="margin-top: -20px">
+                                    Điện thoại: 024.73007.008 - 093.4647.172
+                                </p>
+                                <p style="margin-top: -20px">
+                                    Địa chỉ: Số 63/445 Lạc Long Quân, Tây Hồ, Hà Nội
+                                </p>
+                                <p style="margin-top: -20px">Email: hn@dienhoa24gio.com</p>
+                            </div>
+                            <div class="col-md-4">
+                                <p><b>TP.Hồ Chí Minh:</b></p>
+                                <p style="margin-top: -20px">
+                                    Điện thoại: 028.73007.008 - 094.7723.444
+                                </p>
+                                <p style="margin-top: -20px">
+                                    Địa chỉ: Số 140 Phan Đình Phùng, P.2, Q.Phú Nhuận
+                                </p>
+                                <p style="margin-top: -20px">Email: hcm@dienhoa24gio.com</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-4" style="margin-left: 10%; width: 22%">
-                      <p><b>Hà Nội:</b></p>
-                      <p style="margin-top: -20px">
-                        Điện thoại: 024.73007.008 - 093.4647.172
-                      </p>
-                      <p style="margin-top: -20px">
-                        Địa chỉ: Số 63/445 Lạc Long Quân, Tây Hồ, Hà Nội
-                      </p>
-                      <p style="margin-top: -20px">Email: hn@dienhoa24gio.com</p>
-                    </div>
-                    <div class="col-md-4">
-                      <p><b>TP.Hồ Chí Minh:</b></p>
-                      <p style="margin-top: -20px">
-                        Điện thoại: 028.73007.008 - 094.7723.444
-                      </p>
-                      <p style="margin-top: -20px">
-                        Địa chỉ: Số 140 Phan Đình Phùng, P.2, Q.Phú Nhuận
-                      </p>
-                      <p style="margin-top: -20px">Email: hcm@dienhoa24gio.com</p>
-                    </div>
-                  </div>
                 </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- Navbar -->
+    <nav style="background-color: #96b104">
+        <a style="
+        background-color: #ffffff;
+        position: absolute;
+        margin-left: 15%;
+        font-size: 55px;
+        margin-top: -15px;
+      " class="nav-link" href="/Home.html"><i style="color: #cec0c0" class="fa-solid fa-house-chimney"></i></a>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a style="color: #ffffff; padding: 20px 5px" class="nav-link active nav-bar" aria-current="page"
+                    href="#">Hoa sinh
+                    nhật</a>
+            </li>
+            <li class="nav-item">
+                <a style="color: #ffffff; padding: 20px 5px" class="nav-link nav-bar" href="/Flower/Grand_opening_flower.html">Hoa khai trương</a>
+            </li>
+            <li class="nav-item">
+                <a style="color: #ffffff; padding: 20px 5px" class="nav-link nav-bar" href="./condolence _flowers.html">Hoa chia buồn</a>
+            </li>
+            <li class="nav-item">
+                <a style="color: #ffffff; padding: 20px 5px" class="nav-link nav-bar" href="./phalaenopsis_orchid.html">Lan hồ điệp</a>
+            </li>
+            <li class="nav-item">
+                <a style="color: #ffffff; padding: 20px 5px" class="nav-link nav-bar" href="#">Dịp tặng</a>
+            </li>
+            <li class="nav-item">
+                <a style="color: #ffffff; padding: 20px 5px" class="nav-link nav-bar" href="#">Kiểu dáng</a>
+            </li>
+            <li class="nav-item">
+                <a style="color: #ffffff; padding: 20px 5px" class="nav-link nav-bar" href="#">Màu sắc</a>
+            </li>
+            <li class="nav-item">
+                <a style="color: #ffffff; padding: 20px 5px" class="nav-link nav-bar" href="#">Loại hoa</a>
+            </li>
+            <li class="nav-item">
+                <a style="color: #ffffff; padding: 20px 5px" class="nav-link nav-bar" href="#">Hoa cưới</a>
+            </li>
+            <li class="nav-item">
+                <a style="color: #ffffff; padding: 20px 5px" class="nav-link nav-bar" href="#">Quà tặng</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- end navbar -->
+    <div class="row" style="width: 70%; margin: auto; padding: 10px 0 5px 0; background-color: #f2f2f2;">
+        <div class="col-md-12">
+            <div class="breadcrumb">
+                <a style="text-decoration:none; color:#666" href="#">Trang Chủ</a>
+                <span>
+                  <a style="text-decoration:none; color:#666" href="#">Hoa Sinh Nhật</a>
+                </span>
               </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-6">
+
+                </div>
+                <div class="col-md-6">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="width: 70%; margin: auto; border-bottom: 2px solid #dddddd; padding-bottom: 40px;">
+        <div class="col-md-9">
+            <div class="row" style="padding-top: 10px;">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1>Hoa sinh nhật</h1>
+                        </div>
+                        <div class="col-md-6">
+                            <div style="margin-left: 65%;">
+                                <select class="form-select" aria-label="Default select example"
+                                    style="border: none;">
+                                    <option selected>Sắp xếp thứ tự</option>
+                                    <option value="1">Giá cao -> Thấp</option>
+                                    <option value="2">Giá thấp -> Cao</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="head-2">
+                        <ul>
+                            <li>
+                                <a href="#">Hoa tươi khuyến mãi (8)</a>
+                            </li>
+                            <li>
+                                <a href="#">Mẫu hoa tươi vip (44)</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 10px;">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-3 " style="padding: 5px;">
+                            <div class="card" style="width: 100%;">
+                                <img src="./images/birthday-flower/950k_nho.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Mã hoa: <a href="#" class="id_flower">HB613</a></p>
+                                    <p style="color: red; font-size: 18px;"><b>480,000 đ</b></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3" style="padding: 5px;">
+                            <div class="card" style="width: 100%;">
+                                <img src="./images/birthday-flower/Bohoa1T22022_nho.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Mã hoa: <a href="#" class="id_flower">HB588</a></p>
+                                    <p style="color: red; font-size: 18px;"><b>550,000 đ</b></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3" style="padding: 5px;">
+                            <div class="card" style="width: 100%;">
+                                <img src="./images/birthday-flower/Bohoa2T22022_nho.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Mã hoa: <a href="#" class="id_flower">HB612</a></p>
+                                    <p style="color: red; font-size: 18px;"><b>600,000 đ</b></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3" style="padding: 5px;">
+                            <div class="card" style="width: 100%;">
+                                <img src="./images/birthday-flower/Bohoa3T22022_nho.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Mã hoa: <a href="#" class="id_flower">G754</a></p>
+                                    <p style="color: red; font-size: 18px;"><b>650,000 đ</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 10px;">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-3 " style="padding: 5px;">
+                            <div class="card" style="width: 100%;">
+                                <img src="./images/birthday-flower/bohoahong02T2-22_nho.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Mã hoa: <a href="#" class="id_flower">G552</a></p>
+                                    <p style="color: red; font-size: 18px;"><b>700,000 đ</b></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3" style="padding: 5px;">
+                            <div class="card" style="width: 100%;">
+                                <img src="./images/birthday-flower/bohoahong04T2-22_nho.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Mã hoa: <a href="#" class="id_flower">HB359</a></p>
+                                    <p style="color: red; font-size: 18px;"><b>750,000 đ</b></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3" style="padding: 5px;">
+                            <div class="card" style="width: 100%;">
+                                <img src="./images/birthday-flower/bohoahongdonhap_nho.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Mã hoa: <a href="#" class="id_flower">G600</a></p>
+                                    <p style="color: red; font-size: 18px;"><b>600,000 đ</b></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3" style="padding: 5px;">
+                            <div class="card" style="width: 100%;">
+                                <img src="./images/birthday-flower/bohoahongT2-22_nho.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Mã hoa: <a href="#" class="id_flower">G765</a></p>
+                                    <p style="color: red; font-size: 18px;"><b>1,000,000 đ</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 10px;">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-3 " style="padding: 5px;">
+                            <div class="card" style="width: 100%;">
+                                <img src="./images/birthday-flower/bohoaoharahong_t10_nho-compressor.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Mã hoa: <a href="#" class="id_flower">G659</a></p>
+                                    <p style="color: red; font-size: 18px;"><b>1,200,000 đ</b></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3" style="padding: 5px;">
+                            <div class="card" style="width: 100%;">
+                                <img src="./images/birthday-flower/bohoatuoi2020-1_nho.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Mã hoa: <a href="#" class="id_flower">G626</a></p>
+                                    <p style="color: red; font-size: 18px;"><b>1,500,000 đ</b></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3" style="padding: 5px;">
+                            <div class="card" style="width: 100%;">
+                                <img src="./images/birthday-flower/Giohoasinhnhat-T1105_nho.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Mã hoa: <a href="#" class="id_flower">HB619</a></p>
+                                    <p style="color: red; font-size: 18px;"><b>1,500,000 đ</b></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3" style="padding: 5px;">
+                            <div class="card" style="width: 100%;">
+                                <img src="./images/birthday-flower/Giohoasinhnhat-T1108_nho.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Mã hoa: <a href="#" class="id_flower">G671</a></p>
+                                    <p style="color: red; font-size: 18px;"><b>2,000,000 đ</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 10px;">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-3 " style="padding: 5px;">
+                            <div class="card" style="width: 100%;">
+                                <img src="./images/birthday-flower/Giohoasinhnhat-T1101_nho.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Mã hoa: <a href="#" class="id_flower">G765</a></p>
+                                    <p style="color: red; font-size: 18px;"><b>1,450,000 đ</b></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3" style="padding: 5px;">
+                            <div class="card" style="width: 100%;">
+                                <img src="./images/birthday-flower/bohoasinhnhat-2020-3_nho.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Mã hoa: <a href="#" class="id_flower">H778</a></p>
+                                    <p style="color: red; font-size: 18px;"><b>1,300,000 đ</b></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3" style="padding: 5px;">
+                            <div class="card" style="width: 100%;">
+                                <img src="./images/birthday-flower/giohoatuoi2020-1_nho.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Mã hoa: <a href="#" class="id_flower">HB669</a></p>
+                                    <p style="color: red; font-size: 18px;"><b>1,400,000 đ</b></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3" style="padding: 5px;">
+                            <div class="card" style="width: 100%;">
+                                <img src="./images/birthday-flower/Giohoasinhnhat-T1108_nho.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Mã hoa: <a href="#" class="id_flower">VT891</a></p>
+                                    <p style="color: red; font-size: 18px;"><b>900,000 đ</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="text-align: center; padding: 40px 0;">
+                <div class="col-md-12">
+                    <button style="background-color: #ffffff; border: 1px solid #dddddd; padding: 10px;"><b>Xem thêm
+                            sản phẩm khác (còn 485 sản phẩm khác)</b> </button>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 20px; border: 1px solid #dddddd;">
+                <div class="col-md-12">
+                    <h6>Hoa sinh nhật, Hoa sinh nhật đẹp, hoa chúc mừng sinh nhật</h6>
+                    <p>Sinh nhật là một sự kiện đánh dấu mốc mới của cuộc đời. Bên cạnh những lời chúc mừng sinh
+                        nhật thì bạn đừng quên những <i> bó hoa tặng sinh nhật đẹp, giỏ hoa chúc mừng sinh nhật,
+                            lẵng
+                            hoa tặng sinh nhật </i> nhé. Dù bạn đã chọn được những món quà sinh nhật đẹp, giá trị
+                        hay những
+                        món quà sinh nhật theo sở thích của chủ nhân buổi sinh nhật nhưng cũng không thể thiếu những
+                        bông hoa trong ngày sinh nhật vì nó là một món quà tinh thần đặc biệt cho dù họ là ai, họ ở
+                        vị trí nào thì <b> Hoa sinh nhật</b> vẫn là một món quà đặc biệt bên cạnh những món quà đặc
+                        biệt
+                        khác của bạn. Điện hoa 24h luôn có sẵn những mẫu <i> hoa tặng sinh nhật, những mẫu <b> hoa
+                                sinh nhật
+                                độc đáo, hoa sinh nhật sang trọng </b> </i> để bạn có thể chọn, chỉ mất vài phút bạn
+                        đã chọn được bó
+                        hoa sinh nhật, giỏ hoa sinh nhật theo ý muốn. Bạn có thể chọn hoa sinh nhật theo màu sắc,
+                        chọn hoa sinh nhật theo loại hoa, chọn hoa sinh nhật theo giá, theo kiểu dáng….Mỗi mẫu hoa
+                        sinh nhật đều có những ý nghĩa và màu sắc khác nhau, nếu bạn đang băn khoăn chưa biết nên
+                        chọn mẫu hoa sinh nhật nào thì hãy để lại số điện thoại, email hoặc liên hệ với chúng tôi để
+                        có được một mẫu hoa sinh nhật đẹp và sang trọng theo ý muốn.</p>
+                    <p><b> - Bó hoa sinh nhật đẹp:</b> Có nhiều mẫu hoa sinh nhật bó với nhiều loại hoa phong phú
+                        như bó hoa
+                        hồng đỏ tặng sinh nhật, bó hoa hồng tím tặng sinh nhật, bó hoa lan, bó hoa ly, bó hoa hướng
+                        dương với kiểu bó dài hay bó tròn. Bạn có thể chọn một bó theo ý mình tại website của
+                        Dienhoa24gio.com với nhiều mẫu <b> hoa tặng sinh nhật </b> đẹp nhất.</p>
+                    <p>
+                        <b> - Giỏ hoa sinh nhật:</b> Nhiều mẫu <b> hoa mừng sinh nhật</b> cắm giỏ sang trọng, giỏ
+                        hoa sinh nhật cắm
+                        2 tầng, giỏ hoa sinh nhật cắm tròn, mẫu hoa sinh nhật cắm hai mặt, mẫu hoa sinh nhật cắm
+                        theo phong cách Hàn Quốc, cắm theo kiểu nhà thờ... và nhiều kiểu cắm hoa sinh nhật phong phú
+                        và sang trọng như hoa lan hồ điệp, hoa địa lan. <b> Giá hoa sinh nhật </b> cũng phong phú để
+                        bạn có
+                        thể chọn với mức giá trung bình từ 300,000đ đến 500,000đ.
+                    </p>
+                    <p><b> - Giao hoa sinh nhật tới đâu?:</b> Chúng tôi giao hoa sinh nhật miễn phí nội thành các
+                        thành phố
+                        trong cả nước. Hoa sinh nhật tại Hà Nội, hoa sinh nhật TP.HCM, hoa sinh nhật tại Đà Nẵng,
+                        hoa sinh nhật tại Nha Trang, hoa sinh nhật tại Vũng Tàu, Hoa sinh nhật tại Bình Dương, hoa
+                        sinh nhật tại Tây Ninh, Hoa sinh nhật tại Ninh Thuận, hoa sinh nhật tại Bình Thuận, hoa sinh
+                        nhật tại Bến Tre, hoa sinh nhật tại Đà Lạt, Lâm Đồng, Hoa sinh nhật tại Cần Thơ, hoa sinh
+                        nhật tại An Giang, hoa sinh nhật tại Long An, hoa sinh nhật tại Quảng Trị, hoa sinh nhật tại
+                        Huế, hoa sinh nhật tại Quảng Bình, hoa sinh nhật tại Vinh, Nghệ An, hoa sinh nhật tại Đồng
+                        Tháp, hoa sinh nhật tại Yên Bái, hoa sinh nhật tại Hà Giang, Hoa sinh nhật tại Tuyên Quang,
+                        hoa sinh nhật tại Lào Cai, hoa sinh nhật tại Lạng Sơn, Hoa sinh nhật tại Bắc Giang, hoa sinh
+                        nhật tại Bắc Ninh, hoa sinh nhật tại Hưng Yên, Hoa sinh nhật tại Vĩnh Phúc, hoa sinh nhật
+                        tại Hưng Yên, hoa sinh nhật tại Bà Rịa.. Thời gian thực hiện, cắm hoa sinh nhật, giao hoa
+                        sinh nhật, gửi hoa sinh nhật nhanh nhất có thể từ 30 phút đến 1h.</p>
+                    <p><b> Lưu ý khi đặt hoa sinh nhật:</b> Quý khách chọn <b> mẫu hoa sinh nhật </b> theo yêu cầu,
+                        <b> gửi hoa sinh nhật</b>
+                        nên gửi trong ngày sinh nhật. Quý khách nên gửi vào đầu giờ sáng tại nhà khi người nhận hoa
+                        vừa ngủ dậy hoặc gửi hoa sinh nhật tới cơ quan trong giờ hành chính vào buổi sáng, đầu giờ
+                        sáng hoặc đầu giờ chiều. Không nên chọn hoa sinh nhật đơn giản quá hoặc to qua, chọn hoa
+                        sinh nhật phù hợp với nứa tuổi, vị trí đặt hoa nơi nhà riêng hoặc nơi cơ quan.
+                    </p>
+                    <p><b> Lưu ý khi gửi thiệp sinh nhật:</b> Quý khách nên kèm theo một tấm thiệp sinh nhật với
+                        những lời
+                        chúc mừng sinh nhật thật hay và ý nghĩa. chánh những lời trần tục vì có thể nội dung thiệp
+                        đó họ sẽ đọc trước nhiều người. Những nội dung thiệp có cánh sẽ giúp tăng tình cảm của người
+                        nhận hoa và người tặng hoa, giúp cho bó hoa sinh nhật hay giỏ hoa sinh nhật chở nên giá trị
+                        hơn, ý nghĩa hơn trong mắt người nhận hoa.</p>
+                    <p>
+                        <b>Chăm sóc hoa sinh nhật:</b> Khi mua hoa sinh nhậtquý khách lưu ý các vấn đền sau để chăm
+                        sóc hoa
+                        giúp hoa sinh nhật tươi lâu hơn trong dịp sinh nhật. Nếu là hoa sinh nhật cắm bó thì lưu ý
+                        khi trưng bài quý khách nên tưới nước, thay nước để hoa tươi lâu hơn, nếu là hoa giỏ tặng
+                        sinh nhật thì hoa đã được cắm vào shop cắm hoa nên hoa sẽ bên hơn. Để hoa nơi thoáng mát,
+                        chánh gió và chánh nắng. Nhiệt độ trong phòng tốt nhất nên để khoảng 240C đến 270C.
+                    </p>
+                    <p>- Chọn shop hoa sinh nhật nào?: Khi chọn một shop hoa là đơn vị cung cấp hoa sinh nhật thì
+                        Quý khách lưu ý các tiêu chí xem họ có thể đáp ứng được không như cung cấp địa chỉ, gửi hình
+                        ảnh hoa sinh nhật trước và sau khi giao hoa, báo cáo khi hoa giao xong xem họ có thể đáp ứng
+                        được không? Ngoài ra khi giao dịch nhân viên có xác nhận khi nhận được thanh toán không, có
+                        sẵn sàng hỗ trợ khi gặp khó khăn trong khi giao hoa như không liên hệ được với người nhận,
+                        không tìm thấy địa chỉ giao hoa...Họ có sẵn sàng chấp nhận giao hoa nhận thanh toán, thanh
+                        toán trước một phần khi khách hàng đặt hoa...Bạn hãy lưu ý để đặt hoa sinh nhật, chọn được
+                        shop hoa cung cấp theo ý muốn và tránh rủi ro không vui cho mình và người nhận. Công ty Điện
+                        hoa 24h sẽ sàng đáp ứng các yêu cầu của Quý khách hàng như thời gian, báo cá hình ảnh, và hỗ
+                        trợ tối đa việc đặt hoa và thanh toán.</p>
+                    <p>Chúng tôi giao <a href="#" style="color: blue;"> hoa sinh nhật</a> miễn phí nội thành các thành phố, thời gian gửi <b> hoa sinh nhật</b> từ 1h-2h thì hoa sẽ tới tay người nhận.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3" style="padding: 15px;">
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 style="color: #ffffff; background-color: #97b104; padding: 15px; margin-bottom: -5px;">CHỌN
+                        HOA THEO CHỦ ĐỀ</h4>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">Sinh nhật mẹ, ba</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">Sinh nhật vợ, chồng</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">Sinh nhật người yêu</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">Sinh nhật bạn, đồng nghiệp</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">Sinh nhật bé</a>
+                    </div>
+                </div>
+                <div class="col-md-12" style="padding: 10px;">
+                    <h4 style="color: #ffffff; background-color: #97b104; padding: 15px; margin-bottom: -5px;">CHỌN
+                        HOA THEO GIÁ</h4>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">250,000đ trở xuống</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">từ 250,000 - 500,000đ</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">từ 500,000đ - 1000,000đ</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">từ 1000,000đ - 3000,000đ</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">từ 3000,000đ - 5000,000đ</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">trên 5000,000đ</a>
+                    </div>
+                </div>
+                <div class="col-md-12" style="padding: 10px;">
+                    <h4 style="color: #ffffff; background-color: #97b104; padding: 15px; margin-bottom: -5px;">CHỌN
+                        HOA THEO KIỂU DÁNG</h4>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">Hoa bó</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">Hoa giỏ</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">Hoa lẵng</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">Hoa tươi cắm bình</a>
+                    </div>
+                </div>
+                <div class="col-md-12" style="padding: 10px;">
+                    <h4 style="color: #ffffff; background-color: #97b104; padding: 15px; margin-bottom: -5px;">CHỌN
+                        HOA THEO MÀU SẮC</h4>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">Hoa màu đỏ</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">Hoa màu vàng</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">Hoa màu trắng</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">Hoa màu xanh</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">Hoa màu hồng</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">Hoa màu tím</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">Hoa kết hợp</a>
+                    </div>
+                </div>
+                <div class="col-md-12" style="padding: 10px;">
+                    <h4 style="color: #ffffff; background-color: #97b104; padding: 15px; margin-bottom: -5px;">CHỌN
+                        HOA THEO LOẠI HOA</h4>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">Hoa hồng</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">Hoa ly</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">Hoa lan, dĩa lan</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">Hoa cẩm tú cầu</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">Hoa cẩm chướng</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">Hoa loa kèn</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">Hoa hồng môn</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">Hoa hồ điệp</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">Hoa lan tường</a>
+                    </div>
+                    <div style="border: 1px solid #dddddd; background-color: #f2f2f2; padding: 10px;">
+                        <a href="#" class="select">Hoa hướng dương</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="row">
+                <div class="col-md-12">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row" style="width: 70%; margin: auto; padding-top: 20px;">
+        <div class="col-md-12" style="background-color: #eeeeee;">
+          <div class="row">
+            <div class="col-md-3">
+              <h2 style="font-size: 15px;"><img style="margin-top: 10%; width: 30%;" src="/images/ico-fast.png" alt=""> Miễn phí
+                giao
+                hoa </h2>
+              <p style="margin-left: 30%; font-size: 10px; margin-top: -8%;">Tới nội thành 63 tỉnh và 150 quốc gia</p>
+            </div>
+            <div class="col-md-3">
+              <h2 style="font-size: 15px;"><img style="margin-top: 10%;" src="/images/ico-fl.png" alt=""> Cam kết dịch
+                vụ
+              </h2>
+              <p style="margin-left: 18%; font-size: 12px; margin-top: -8%;">Hoa tươi hơn 3 ngày</p>
+            </div>
+            <div class="col-md-3">
+              <h2 style="font-size: 15px;"><img style="margin-top: 10%;" src="/images/ico-fl-2.png" alt=""> Mẫu hoa đa
+                dạng </h2>
+              <p style="margin-left: 22%; font-size: 12px; margin-top: -8%;">Hàng trăm mẫu hoa theo yêu cầu</p>
+            </div>
+            <div class="col-md-3">
+              <h2 style="font-size: 15px;"><img style="margin-top: 10%;" src="/images/ico-gif.png" alt=""> Giao hoa theo
+                yêu cầu </h2>
+              <p style="margin-left: 15%; font-size: 12px; margin-top: -8%;">Giao hẹn giờ, mặc đồng phục...</p>
             </div>
           </div>
-        </header>
-        <!-- end header -->
-    
-        <!-- Navbar -->
-        <nav style="background-color: #96b104">
-          <a style="
-                background-color: #ffffff;
-                position: absolute;
-                margin-left: 15%;
-                font-size: 55px;
-                margin-top: -15px;
-              " class="nav-link" href="#"><i style="color: #cec0c0" class="fa-solid fa-house-chimney"></i></a>
-          <ul class="nav justify-content-center">
-            <li class="nav-item">
-              <a style="color: #ffffff; padding: 20px 5px" class="nav-link active nav-bar" aria-current="page" href="#">Hoa sinh
-                nhật</a>
-            </li>
-            <li class="nav-item">
-              <a style="color: #ffffff; padding: 20px 5px" class="nav-link nav-bar" href="#">Hoa khai trương</a>
-            </li>
-            <li class="nav-item">
-              <a style="color: #ffffff; padding: 20px 5px" class="nav-link nav-bar" href="#">Hoa chia buồn</a>
-            </li>
-            <li class="nav-item">
-              <a style="color: #ffffff; padding: 20px 5px" class="nav-link nav-bar" href="#">Lan hồ điệp</a>
-            </li>
-            <li class="nav-item">
-              <a style="color: #ffffff; padding: 20px 5px" class="nav-link nav-bar" href="#">Dịp tặng</a>
-            </li>
-            <li class="nav-item">
-              <a style="color: #ffffff; padding: 20px 5px" class="nav-link nav-bar" href="#">Kiểu dáng</a>
-            </li>
-            <li class="nav-item">
-              <a style="color: #ffffff; padding: 20px 5px" class="nav-link nav-bar" href="#">Màu sắc</a>
-            </li>
-            <li class="nav-item">
-              <a style="color: #ffffff; padding: 20px 5px" class="nav-link nav-bar" href="#">Loại hoa</a>
-            </li>
-            <li class="nav-item">
-              <a style="color: #ffffff; padding: 20px 5px" class="nav-link nav-bar" href="#">Hoa cưới</a>
-            </li>
-            <li class="nav-item">
-              <a style="color: #ffffff; padding: 20px 5px" class="nav-link nav-bar" href="#">Quà tặng</a>
-            </li>
-          </ul>
-        </nav>
-  <div class="main container">
-    <div class="breadcrumb">
-      <a style="text-decoration:none; color:#666" href="#">TRANG CHỦ</a>
-      <span>
-        <a style="text-decoration:none; color:#666" href="#"> HOA SINH NHẬT</a>
-      </span>
-    </div>
-    <div class="page-container clearfix">
-      <div class="main-content">
-        <div class="head head-1 clearfix">
-          <div class="title-page">
-            <h3>Hoa Sinh Nhật</h3>
-          </div>
-          <select class="sl-filter selectpicker-3" aria-label="Default select example">
-            <option selected value="0">Sắp xếp thứ tự</option>
-            <option value="1">Giá Cao->Thấp</option>
-            <option value="2">Giá Thấp->Cao</option>
-          </select>
-        </div>
-        <div class="head-2">
-          <ul>
-            <li class="first">
-              <a href="#">Hoa Tươi Khuyến Mãi (8)</a>
-            </li>
-            <li class="last">
-              <a href="#"> Mẫu Hoa Tươi Vip (44)</a>
-            </li>
-          </ul>
-        </div>
-        <div id="upFlowers">
-          <ul class="list-pro clearfix">
-            <li class="first" style="height:268px;">
-              <div class="slide-content">
-                <div class="block-product">
-                  <a id="01" href="#">
-                    <img id="01" src="/images/birthday-flower/950k_nho.jpg" alt="Bó hoa hồng đỏ_HB613" style="border-width:0px;">
-                  </a>
-                </div>
-                <div class="slide-caption">
-                  <h5>Mã hoa: <a id="01" href="#" style="text-decoration:none; color:#575757">HB613</a></h5>
-                </div>
-                <div class="group-price">
-                  <p class="price">480.000<sup>d</sup></p>
-                </div>
-              </div>
-            </li>
-            <li style="height:268px;">
-              <div class="slide-content">
-                <div class="block-product">
-                  <a id="02" href="#">
-                    <img id="02" src="/images/birthday-flower/Bohoa1T22022_nho.jpg" alt="Bó hoa sinh nhật_HB588" style="border-width:0px;">
-                  </a>
-                </div>
-                <div class="slide-caption">
-                  <h5>Mã hoa: <a id="02" href="#" style="text-decoration:none; color:#575757">HB588</a></h5>
-                </div>
-                <div class="group-price">
-                  <p class="price">550.000<sup>d</sup></p>
-                </div>
-              </div>
-            </li>
-            <li style="height:268px;">
-              <div class="slide-content">
-                <div class="block-product">
-                  <a id="03" href="#">
-                    <img id="03" src="/images/birthday-flower/Bohoa2T22022_nho.jpg" alt="Bó hoa sinh nhật_HB612" style="border-width:0px;">
-                  </a>
-                </div>
-                <div class="slide-caption">
-                  <h5>Mã hoa: <a id="03" href="#" style="text-decoration:none; color:#575757">HB612</a></h5>
-                </div>
-                <div class="group-price">
-                  <p class="price">600.000<sup>d</sup></p>
-                </div>
-              </div>
-            </li>
-            <li style="height:268px;">
-              <div class="slide-content">
-                <div class="block-product">
-                  <a id="04" href="#">
-                    <img id="04" src="/images/birthday-flower/Bohoa3T22022_nho.jpg" alt="Bó hoa sinh nhật_G754" style="border-width:0px;">
-                  </a>
-                </div>
-                <div class="slide-caption">
-                  <h5>Mã hoa: <a id="04" href="#" style="text-decoration:none; color:#575757">G754</a></h5>
-                </div>
-                <div class="group-price">
-                  <p class="price">650.000<sup>d</sup></p>
-                </div>
-              </div>
-            </li>
-            <li style="height:268px;">
-              <div class="slide-content">
-                <div class="block-product">
-                  <a id="05" href="#">
-                    <img id="05" src="/images/birthday-flower/bohoahong04T2-22_nho.jpg" alt="Bó hoa sinh nhật_HB359" style="border-width:0px;">
-                  </a>
-                </div>
-                <div class="slide-caption">
-                  <h5>Mã hoa: <a id="05" href="#" style="text-decoration:none; color:#575757">HB359</a></h5>
-                </div>
-                <div class="group-price">
-                  <p class="price">600.000<sup>d</sup></p>
-                </div>
-              </div>
-            </li>
-            <li style="height:268px;">
-              <div class="slide-content">
-                <div class="block-product">
-                  <a id="06" href="#">
-                    <img id="06" src="/images/birthday-flower/bohoahong02T2-22_nho.jpg" alt="Bó hoa sinh nhật_G600" style="border-width:0px;">
-                  </a>
-                </div>
-                <div class="slide-caption">
-                  <h5>Mã hoa: <a id="06" href="#" style="text-decoration:none; color:#575757">G600</a></h5>
-                </div>
-                <div class="group-price">
-                  <p class="price">750.000<sup>d</sup></p>
-                </div>
-              </div>
-            </li>
-            <li style="height:268px;">
-              <div class="slide-content">
-                <div class="block-product">
-                  <a id="07" href="#">
-                    <img id="07" src="/images/birthday-flower/giohoatuoi2020-1_nho.jpg" alt="Bó hoa sinh nhật_HB213" style="border-width:0px;">
-                  </a>
-                </div>
-                <div class="slide-caption">
-                  <h5>Mã hoa: <a id="07" href="#" style="text-decoration:none; color:#575757">HB213</a></h5>
-                </div>
-                <div class="group-price">
-                  <p class="price">540.000<sup>d</sup></p>
-                </div>
-              </div>
-            </li>
-            <li style="height:268px;">
-              <div class="slide-content">
-                <div class="block-product">
-                  <a id="08" href="#">
-                    <img id="08" src="/images/birthday-flower/Giohoasinhnhat-T1108_nho.jpg" alt="Bó hoa sinh nhật_G375" style="border-width:0px;">
-                  </a>
-                </div>
-                <div class="slide-caption">
-                  <h5>Mã hoa: <a id="08" href="#" style="text-decoration:none; color:#575757">G375375</a></h5>
-                </div>
-                <div class="group-price">
-                  <p class="price">420.000<sup>d</sup></p>
-                </div>
-              </div>
-            </li>
-            <li style="height:268px;">
-              <div class="slide-content">
-                <div class="block-product">
-                  <a id="09" href="#">
-                    <img id="09" src="/images/birthday-flower/Giohoasinhnhat-T1105_nho.jpg" alt="Bó hoa sinh nhật_HB533" style="border-width:0px;">
-                  </a>
-                </div>
-                <div class="slide-caption">
-                  <h5>Mã hoa: <a id="09" href="#" style="text-decoration:none; color:#575757">HB533</a></h5>
-                </div>
-                <div class="group-price">
-                  <p class="price">875.000<sup>d</sup></p>
-                </div>
-              </div>
-            </li>
-            <li style="height:268px;">
-              <div class="slide-content">
-                <div class="block-product">
-                  <a id="10" href="#">
-                    <img id="10" src="/images/birthday-flower/giohoa21-1Nho.jpg" alt="Bó hoa sinh nhật_HB359HB359" style="border-width:0px;">
-                  </a>
-                </div>
-                <div class="slide-caption">
-                  <h5>Mã hoa: <a id="10" href="#" style="text-decoration:none; color:#575757">HB359</a></h5>
-                </div>
-                <div class="group-price">
-                  <p class="price">950.000<sup>d</sup></p>
-                </div>
-              </div>
-            </li>
-            <li style="height:268px;">
-              <div class="slide-content">
-                <div class="block-product">
-                  <a id="11" href="#">
-                    <img id="11" src="/images/birthday-flower/bohoaoharahong_t10_nho-compressor.jpg" alt="Bó hoa sinh nhật_G674" style="border-width:0px;">
-                  </a>
-                </div>
-                <div class="slide-caption">
-                  <h5>Mã hoa: <a id="11" href="#" style="text-decoration:none; color:#575757">G67474</a></h5>
-                </div>
-                <div class="group-price">
-                  <p class="price">1.020.000<sup>d</sup></p>
-                </div>
-              </div>
-            </li>
-            <li style="height:268px;">
-              <div class="slide-content">
-                <div class="block-product">
-                  <a id="12" href="#">
-                    <img id="12" src="/images/birthday-flower/bohoahongT2-22_nho.jpg" alt="Bó hoa sinh nhật_HB577" style="border-width:0px;">
-                  </a>
-                </div>
-                <div class="slide-caption">
-                  <h5>Mã hoa: <a id="12" href="#" style="text-decoration:none; color:#575757">HB577</a></h5>
-                </div>
-                <div class="group-price">
-                  <p class="price">860.000<sup>d</sup></p>
-                </div>
-              </div>
-            </li>
-          </ul>
         </div>
       </div>
     </div>
-  </div>
     <!-- footer -->
     <footer>
-        <div class="row" style="margin-top: 50px; background-color: #f5f5f5; ">
-          <div class="col-md-12" style="width: 70%; margin: auto; padding: 25px; border-bottom: 2px solid #e8e9e9;">
-            <div class="row">
-              <div class="col-md-3">
-                <h3 style="font-size: 17px; border-bottom: 1px solid #96b104; width: 54%;">DIENHOA24GIO.COM</h3>
-                <div><a href="#" style="text-decoration: none; color: #000000;">Giới thiệu</a></div>
-                <div><a href="#" style="text-decoration: none; color: #000000;">Tin điện hoa 24h</a></div>
-                <div><a href="#" style="text-decoration: none; color: #000000;">Sự kiện điện hoa</a></div>
-                <div><a href="#" style="text-decoration: none; color: #000000;">Kiến thức về hoa</a></div>
-                <div><a href="#" style="text-decoration: none; color: #000000;">Khóa học cắm hoa nghệ thuật</a></div>
-                <div><a href="#" style="text-decoration: none; color: #000000;">Tuyển dụng</a></div>
-                <div><a href="#" style="text-decoration: none; color: #000000;">Liên hệ</a></div>
-  
-  
+      <div class="row" style="margin-top: 50px; background-color: #f5f5f5; ">
+        <div class="col-md-12" style="width: 70%; margin: auto; padding: 25px; border-bottom: 2px solid #e8e9e9;">
+          <div class="row">
+            <div class="col-md-3">
+              <h3 style="font-size: 17px; border-bottom: 1px solid #96b104; width: 54%;">DIENHOA24GIO.COM</h3>
+              <div><a href="#" style="text-decoration: none; color: #000000;">Giới thiệu</a></div>
+              <div><a href="#" style="text-decoration: none; color: #000000;">Tin điện hoa 24h</a></div>
+              <div><a href="#" style="text-decoration: none; color: #000000;">Sự kiện điện hoa</a></div>
+              <div><a href="#" style="text-decoration: none; color: #000000;">Kiến thức về hoa</a></div>
+              <div><a href="#" style="text-decoration: none; color: #000000;">Khóa học cắm hoa nghệ thuật</a></div>
+              <div><a href="#" style="text-decoration: none; color: #000000;">Tuyển dụng</a></div>
+              <div><a href="#" style="text-decoration: none; color: #000000;">Liên hệ</a></div>
+
+
+            </div>
+            <div class="col-md-3">
+              <h3 style="font-size: 17px; border-bottom: 1px solid #96b104; width: 60%;">Chăm sóc khách hàng</h3>
+              <div><a href="#" style="text-decoration: none; color: #000000;">Hướng dẫn đặt hàng</a></div>
+              <div><a href="#" style="text-decoration: none; color: #000000;">Số tài khoản</a></div>
+              <div><a href="#" style="text-decoration: none; color: #000000;">Kiểm tra đơn hàng</a></div>
+              <div><a href="#" style="text-decoration: none; color: #000000;">Chính sách bảo mật thông tin</a></div>
+              <div><a href="#" style="text-decoration: none; color: #000000;">Chính sách điện hỏa</a></div>
+              <div><a href="#" style="text-decoration: none; color: #000000;">Quy trình điện hoa</a></div>
+              <div><a href="#" style="text-decoration: none; color: #000000;">Điện hoa nhanh</a></div>
+            </div>
+            <div class="col-md-3">
+              <h3 style="font-size: 17px; border-bottom: 1px solid #96b104; width: 25%;">Tài khoản</h3>
+              <div><a href="#" style="text-decoration: none; color: #000000;">Đăng nhập</a></div>
+              <div><a href="#" style="text-decoration: none; color: #000000;">Đăng ký</a></div>
+              <div><a href="#" style="text-decoration: none; color: #000000;">Hướng dẫn thanh toán</a></div>
+              <h3 style="font-size: 17px; border-bottom: 1px solid #96b104; width: 25%;">Kết nối</h3>
+              <div><a href=""><img src="/images/ico-fb (1).png" alt=""></a></div>
+            </div>
+            <div class="col-md-3">
+              <h3 style="font-size: 17px; border-bottom: 1px solid #96b104; width: 45%;">Được chứng nhận</h3>
+              <img src="/images/dk.png" alt="">
+              <img src="/images/dmca_protected_sml_120b.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="background-color: #f5f5f5; padding-top: 20px;">
+        <div class="col-md-12" style="width: 70%; margin: auto; border-bottom: 2px solid #e8e9e9;">
+          <div class="row">
+            <div class="col-md-12">
+              <h4 style="font-size: 16px;">CÔNG TY TNHH ĐIỆN HOA 24H <font style="font-size: 12px; font-weight: 400;">
+                  (Người đại diện: ông Lê Văn Vinh, Giấy chứng nhận ĐKKD số 0107383771 cấp tại Sở kế hoạc và Đầu tư TP.
+                  Hà
+                  Nội, ngày cấp 04/04/2016 )</font>
+              </h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <h5 style="font-size: 14px;">Shop hoa Hà Nội</h5>
+              <p style="font-size: 14px;">Địa chỉ: Số 63/445 Lạc Long Quân, Tây Hồ</p>
+              <p style="font-size: 14px;">Điện thoại: 024.73007.008</p>
+              <p style="font-size: 14px;">Email: <a href="#"
+                  style="text-decoration: none; color: #000;">hn@dienhoa24gio.com</a> </p>
+            </div>
+            <div class="col-md-3">
+              <h5 style="font-size: 14px;">Shop hoa TP.Hồ Chí Minh</h5>
+              <p style="font-size: 14px;">Địa chỉ: 189 Xô Viết Nghệ Tĩnh, P.17, Q. Bình Thạnh</p>
+              <p style="font-size: 14px;">Điện thoại: 028.73007.008</p>
+              <p style="font-size: 14px;">Email: <a href="#"
+                  style="text-decoration: none; color: #000;">hcm@dienhoa24gio.com</a> </p>
+            </div>
+            <div class="col-md-3">
+              <h5 style="font-size: 14px;">Shop hoa Đà Nẵng</h5>
+              <p style="font-size: 14px;">Địa chỉ: Số 12 Điện Biên Phủ, Q.Hải Châu, TP.ĐN</p>
+              <p style="font-size: 14px;">Điện thoại: 0236.7307.008</p>
+              <p style="font-size: 14px;">Email: <a href="#"
+                  style="text-decoration: none; color: #000;">dn@dienhoa24gio.com</a> </p>
+            </div>
+            <div class="col-md-3">
+              <h5 style="font-size: 14px;">Shop hoa tươi các tỉnh</h5>
+              <div> <a href="#" style="text-decoration: none; color: #000; font-size: 14px;">Điện hoa Đồng Nai</a></div>
+              <div> <a href="#" style="text-decoration: none; color: #000; font-size: 14px;">Điện hoa Bình Dương</a>
               </div>
-              <div class="col-md-3">
-                <h3 style="font-size: 17px; border-bottom: 1px solid #96b104; width: 60%;">Chăm sóc khách hàng</h3>
-                <div><a href="#" style="text-decoration: none; color: #000000;">Hướng dẫn đặt hàng</a></div>
-                <div><a href="#" style="text-decoration: none; color: #000000;">Số tài khoản</a></div>
-                <div><a href="#" style="text-decoration: none; color: #000000;">Kiểm tra đơn hàng</a></div>
-                <div><a href="#" style="text-decoration: none; color: #000000;">Chính sách bảo mật thông tin</a></div>
-                <div><a href="#" style="text-decoration: none; color: #000000;">Chính sách điện hỏa</a></div>
-                <div><a href="#" style="text-decoration: none; color: #000000;">Quy trình điện hoa</a></div>
-                <div><a href="#" style="text-decoration: none; color: #000000;">Điện hoa nhanh</a></div>
+              <div> <a href="#" style="text-decoration: none; color: #000; font-size: 14px;">Điện hoa Nghệ An</a></div>
+              <div> <a href="#" style="text-decoration: none; color: #000; font-size: 14px;">Điện hoa Hải Phòng</a>
               </div>
-              <div class="col-md-3">
-                <h3 style="font-size: 17px; border-bottom: 1px solid #96b104; width: 25%;">Tài khoản</h3>
-                <div><a href="#" style="text-decoration: none; color: #000000;">Đăng nhập</a></div>
-                <div><a href="#" style="text-decoration: none; color: #000000;">Đăng ký</a></div>
-                <div><a href="#" style="text-decoration: none; color: #000000;">Hướng dẫn thanh toán</a></div>
-                <h3 style="font-size: 17px; border-bottom: 1px solid #96b104; width: 25%;">Kết nối</h3>
-                <div><a href=""><img src="/images/ico-fb (1).png" alt=""></a></div>
-              </div>
-              <div class="col-md-3">
-                <h3 style="font-size: 17px; border-bottom: 1px solid #96b104; width: 45%;">Được chứng nhận</h3>
-                <img src="/images/dk.png" alt="">
-                <img src="/images/dmca_protected_sml_120b.png" alt="">
+              <div> <a href="#" style="text-decoration: none; color: #000; font-size: 14px;">Xem thêm các shop khác</a>
               </div>
             </div>
           </div>
         </div>
-        <div class="row" style="background-color: #f5f5f5; padding-top: 20px;">
-          <div class="col-md-12" style="width: 70%; margin: auto; border-bottom: 2px solid #e8e9e9;">
-            <div class="row">
-              <div class="col-md-12">
-                <h4 style="font-size: 16px;">CÔNG TY TNHH ĐIỆN HOA 24H <font style="font-size: 12px; font-weight: 400;">
-                    (Người đại diện: ông Lê Văn Vinh, Giấy chứng nhận ĐKKD số 0107383771 cấp tại Sở kế hoạc và Đầu tư TP.
-                    Hà
-                    Nội, ngày cấp 04/04/2016 )</font>
-                </h4>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-3">
-                <h5 style="font-size: 14px;">Shop hoa Hà Nội</h5>
-                <p style="font-size: 14px;">Địa chỉ: Số 63/445 Lạc Long Quân, Tây Hồ</p>
-                <p style="font-size: 14px;">Điện thoại: 024.73007.008</p>
-                <p style="font-size: 14px;">Email: <a href="#"
-                    style="text-decoration: none; color: #000;">hn@dienhoa24gio.com</a> </p>
-              </div>
-              <div class="col-md-3">
-                <h5 style="font-size: 14px;">Shop hoa TP.Hồ Chí Minh</h5>
-                <p style="font-size: 14px;">Địa chỉ: 189 Xô Viết Nghệ Tĩnh, P.17, Q. Bình Thạnh</p>
-                <p style="font-size: 14px;">Điện thoại: 028.73007.008</p>
-                <p style="font-size: 14px;">Email: <a href="#"
-                    style="text-decoration: none; color: #000;">hcm@dienhoa24gio.com</a> </p>
-              </div>
-              <div class="col-md-3">
-                <h5 style="font-size: 14px;">Shop hoa Đà Nẵng</h5>
-                <p style="font-size: 14px;">Địa chỉ: Số 12 Điện Biên Phủ, Q.Hải Châu, TP.ĐN</p>
-                <p style="font-size: 14px;">Điện thoại: 0236.7307.008</p>
-                <p style="font-size: 14px;">Email: <a href="#"
-                    style="text-decoration: none; color: #000;">dn@dienhoa24gio.com</a> </p>
-              </div>
-              <div class="col-md-3">
-                <h5 style="font-size: 14px;">Shop hoa tươi các tỉnh</h5>
-                <div> <a href="#" style="text-decoration: none; color: #000; font-size: 14px;">Điện hoa Đồng Nai</a></div>
-                <div> <a href="#" style="text-decoration: none; color: #000; font-size: 14px;">Điện hoa Bình Dương</a>
-                </div>
-                <div> <a href="#" style="text-decoration: none; color: #000; font-size: 14px;">Điện hoa Nghệ An</a></div>
-                <div> <a href="#" style="text-decoration: none; color: #000; font-size: 14px;">Điện hoa Hải Phòng</a>
-                </div>
-                <div> <a href="#" style="text-decoration: none; color: #000; font-size: 14px;">Xem thêm các shop khác</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row" style="background-color: #f5f5f5;">
-          <div class="col-md-12">
-            <div class="row">
-              <div class="col-md-12" style="width: 70%; margin: auto; border-bottom: 2px solid #e8e9e9;">
-                <p>Hoa tươi: <a href="#" style="text-decoration: none; color: #000; font-size: 14px">Bó hoa tươi</a>, <a
-                    href="#" style="text-decoration: none; color: #000; font-size: 14px">Bó hoa tươi</a>,<a href="#"
-                    style="text-decoration: none; color: #000; font-size: 14px">bình hoa</a>,<a href="#"
-                    style="text-decoration: none; color: #000; font-size: 14px">hoa bàn họp</a>, <a href="#"
-                    style="text-decoration: none; color: #000; font-size: 14px">hoa khai trương</a>, <a href="#"
-                    style="text-decoration: none; color: #000; font-size: 14px">hoa chia buồn</a>, <a href="#"
-                    style="text-decoration: none; color: #000; font-size: 14px">hoa sinh nhật</a>, <a href="#"
-                    style="text-decoration: none; color: #000; font-size: 14px">hoa cưới</a>, <a href="#"
-                    style="text-decoration: none; color: #000; font-size: 14px">hoa vòng</a>,
-                  <a href="#" style="text-decoration: none; color: #000; font-size: 14px">hoa cài áo</a>
-                </p>
-                <p style="font-size: 14px;">Shop hoa các tỉnh: <a href="#" style="text-decoration: none; color: #000;">Sài
-                    Gòn</a>,
-                  <a href="#" style="text-decoration: none; color: #000;">Nha Trang</a>,
-                  <a href="#" style="text-decoration: none; color: #000;">Khánh Hòa</a>,
-                  <a href="#" style="text-decoration: none; color: #000;">Tây Ninh</a>,
-                  <a href="#" style="text-decoration: none; color: #000;">Nam Định</a>
-                </p>
-                <p style="font-size: 14px;">Shop hoa các quận: <a href="#"
-                    style="text-decoration: none; color: #000;">Quận 1</a>,
-                  <a href="#" style="text-decoration: none; color: #000;">Quận 2</a>,
-                  <a href="#" style="text-decoration: none; color: #000;">Quận 3</a>,
-                  <a href="#" style="text-decoration: none; color: #000;">Quận 4</a>,
-                  <a href="#" style="text-decoration: none; color: #000;">Quận 5</a>,
-                  <a href="#" style="text-decoration: none; color: #000;">Quận 12</a>,
-                  <a href="#" style="text-decoration: none; color: #000;">Quận Bình Chánh</a>,
-                  <a href="#" style="text-decoration: none; color: #000;">Quận Bình Tân</a>,
-                  <a href="#" style="text-decoration: none; color: #000;">Quận Thủ Đức</a>,
-                  <a href="#" style="text-decoration: none; color: #000;">Quận Tân Bình</a>,
-                  <a href="#" style="text-decoration: none; color: #000;">Quận Bình Thạnh</a>,
-                  <a href="#" style="text-decoration: none; color: #000;">Quận Gò Vấp</a>
-                </p>
-                <p style="font-size: 14px;">
-                  Hoa theo chủ đề: <a href="#" style="text-decoration: none; color: #000;">Hoa chúc mừng sinh nhật</a>,
-                  <a href="#" style="text-decoration: none; color: #000;">Hoa chúc mừng khai trương</a>,
-                  <a href="#" style="text-decoration: none; color: #000;">Hoa tặng mẹ</a>,
-                  <a href="#" style="text-decoration: none; color: #000;">Hoa chúc mừng hoa tặng vợ</a>,
-                  <a href="#" style="text-decoration: none; color: #000;">Hoa tặng bạn gái</a>,
-                  <a href="#" style="text-decoration: none; color: #000;">Hoa tặng ngày phụ nữ</a>,
-                  <a href="#" style="text-decoration: none; color: #000;">Hoa tặng ngày valentin</a>
-                </p>
-                <p style="font-size: 14px;">Tên các loài hoa:
-                  <a href="#" style="text-decoration: none; color: #000;">Hoa hồng</a>,
-                  <a href="#" style="text-decoration: none; color: #000;">Hoa lan</a>,
-                  <a href="#" style="text-decoration: none; color: #000;">Hoa hướng dương</a>,
-                  <a href="#" style="text-decoration: none; color: #000;">Hoa cẩm chướng</a>,
-                  <a href="#" style="text-decoration: none; color: #000;">Hoa hồ điệp</a>,
-                  <a href="#" style="text-decoration: none; color: #000;">Hoa cẩm tú cầu</a>,
-                  <a href="#" style="text-decoration: none; color: #000;">Hoa lan tường</a>,
-                </p>
-                <p style="font-size: 14px;">
-                  Thể loại hoa:
-                  <a href="#" style="text-decoration: none; color: #000;">Lẵng hoa</a>,
-                  <a href="#" style="text-decoration: none; color: #000;">Kệ hoa</a>,
-                  <a href="#" style="text-decoration: none; color: #000;">Hoa sự kiện</a>
-                </p>
-              </div>
+      </div>
+      <div class="row" style="background-color: #f5f5f5;">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-12" style="width: 70%; margin: auto; border-bottom: 2px solid #e8e9e9;">
+              <p>Hoa tươi: <a href="#" style="text-decoration: none; color: #000; font-size: 14px">Bó hoa tươi</a>, <a
+                  href="#" style="text-decoration: none; color: #000; font-size: 14px">Bó hoa tươi</a>,<a href="#"
+                  style="text-decoration: none; color: #000; font-size: 14px">bình hoa</a>,<a href="#"
+                  style="text-decoration: none; color: #000; font-size: 14px">hoa bàn họp</a>, <a href="#"
+                  style="text-decoration: none; color: #000; font-size: 14px">hoa khai trương</a>, <a href="#"
+                  style="text-decoration: none; color: #000; font-size: 14px">hoa chia buồn</a>, <a href="#"
+                  style="text-decoration: none; color: #000; font-size: 14px">hoa sinh nhật</a>, <a href="#"
+                  style="text-decoration: none; color: #000; font-size: 14px">hoa cưới</a>, <a href="#"
+                  style="text-decoration: none; color: #000; font-size: 14px">hoa vòng</a>,
+                <a href="#" style="text-decoration: none; color: #000; font-size: 14px">hoa cài áo</a>
+              </p>
+              <p style="font-size: 14px;">Shop hoa các tỉnh: <a href="#" style="text-decoration: none; color: #000;">Sài
+                  Gòn</a>,
+                <a href="#" style="text-decoration: none; color: #000;">Nha Trang</a>,
+                <a href="#" style="text-decoration: none; color: #000;">Khánh Hòa</a>,
+                <a href="#" style="text-decoration: none; color: #000;">Tây Ninh</a>,
+                <a href="#" style="text-decoration: none; color: #000;">Nam Định</a>
+              </p>
+              <p style="font-size: 14px;">Shop hoa các quận: <a href="#"
+                  style="text-decoration: none; color: #000;">Quận 1</a>,
+                <a href="#" style="text-decoration: none; color: #000;">Quận 2</a>,
+                <a href="#" style="text-decoration: none; color: #000;">Quận 3</a>,
+                <a href="#" style="text-decoration: none; color: #000;">Quận 4</a>,
+                <a href="#" style="text-decoration: none; color: #000;">Quận 5</a>,
+                <a href="#" style="text-decoration: none; color: #000;">Quận 12</a>,
+                <a href="#" style="text-decoration: none; color: #000;">Quận Bình Chánh</a>,
+                <a href="#" style="text-decoration: none; color: #000;">Quận Bình Tân</a>,
+                <a href="#" style="text-decoration: none; color: #000;">Quận Thủ Đức</a>,
+                <a href="#" style="text-decoration: none; color: #000;">Quận Tân Bình</a>,
+                <a href="#" style="text-decoration: none; color: #000;">Quận Bình Thạnh</a>,
+                <a href="#" style="text-decoration: none; color: #000;">Quận Gò Vấp</a>
+              </p>
+              <p style="font-size: 14px;">
+                Hoa theo chủ đề: <a href="#" style="text-decoration: none; color: #000;">Hoa chúc mừng sinh nhật</a>,
+                <a href="#" style="text-decoration: none; color: #000;">Hoa chúc mừng khai trương</a>,
+                <a href="#" style="text-decoration: none; color: #000;">Hoa tặng mẹ</a>,
+                <a href="#" style="text-decoration: none; color: #000;">Hoa chúc mừng hoa tặng vợ</a>,
+                <a href="#" style="text-decoration: none; color: #000;">Hoa tặng bạn gái</a>,
+                <a href="#" style="text-decoration: none; color: #000;">Hoa tặng ngày phụ nữ</a>,
+                <a href="#" style="text-decoration: none; color: #000;">Hoa tặng ngày valentin</a>
+              </p>
+              <p style="font-size: 14px;">Tên các loài hoa:
+                <a href="#" style="text-decoration: none; color: #000;">Hoa hồng</a>,
+                <a href="#" style="text-decoration: none; color: #000;">Hoa lan</a>,
+                <a href="#" style="text-decoration: none; color: #000;">Hoa hướng dương</a>,
+                <a href="#" style="text-decoration: none; color: #000;">Hoa cẩm chướng</a>,
+                <a href="#" style="text-decoration: none; color: #000;">Hoa hồ điệp</a>,
+                <a href="#" style="text-decoration: none; color: #000;">Hoa cẩm tú cầu</a>,
+                <a href="#" style="text-decoration: none; color: #000;">Hoa lan tường</a>,
+              </p>
+              <p style="font-size: 14px;">
+                Thể loại hoa:
+                <a href="#" style="text-decoration: none; color: #000;">Lẵng hoa</a>,
+                <a href="#" style="text-decoration: none; color: #000;">Kệ hoa</a>,
+                <a href="#" style="text-decoration: none; color: #000;">Hoa sự kiện</a>
+              </p>
             </div>
           </div>
         </div>
-        <div class="row" style="background-color: #f5f5f5;">
-          <div class="col-md-12" style="width: 70%; margin: auto;">
-            <p style="text-align: center;">Copyright © 2018, Dienhoa24gio.com, All rights reserved</p>
-          </div>
+      </div>
+      <div class="row" style="background-color: #f5f5f5;">
+        <div class="col-md-12" style="width: 70%; margin: auto;">
+          <p style="text-align: center;">Copyright © 2018, Dienhoa24gio.com, All rights reserved</p>
         </div>
-      </footer>
+      </div>
+    </footer>
+    <!-- end footer -->
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="/js/main.js"></script>
 </body>
 </html>
